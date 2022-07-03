@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+#login_section{}
+#login_section .wrap{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#login_section .wrap .frame{
+    width: 480px;
+    border: 1px solid #d2d2d7;
+    border-radius: 5px;
+    padding: 30px 40px;
+    outline: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#login_section .wrap .frame .txt_box{
+    position: relative;
+}
+#login_section .wrap .frame .txt_box input{
+    width: 400px;
+    height: 56px;
+    padding: 18px 16px 0;
+    font-size: 17px;
+    color: #1d1d1f;
+    border: 1px solid #d2d2d7;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+#login_section .wrap #signin_form .frame .txt_box input:focus{
+    box-shadow: 0 0 0 4px rgba(0,125,250,0.6);
+    outline: none;
+}
+#login_section .wrap #signin_form .frame .txt_box input:focus + label,
+#login_section .wrap #signin_form .frame .txt_box input:valid + label{
+    top: 9px;
+    font-size: 12px;
+}
+#login_section .wrap #signin_form .txt_box #signin_id{}
+#login_section .wrap #signin_form .txt_box #signin_pw{}
+#login_section .wrap .frame .txt_box label{
+    position: absolute;
+    top: 15px; left: 15px;
+    font-size: 17px;
+    color: #919196;
+    transition: all 0.3s ease;
+}
+#login_section .wrap .frame .txt_box p{
+    font-size: 12px;
+    line-height: 1;
+    margin: 0 10px 14px;
+    color: #e30000;
+    display: none;
+}
+#login_section .wrap .frame .find_id{
+    text-align: right;
+    margin-bottom: 30px;
+}
+#login_section .wrap .frame .find_id a{
+    font-size: 14px;
+    color: #1794d8;
+}
+#login_section .wrap #signin_form .find_id a{
+    font-size: 14px;
+    color: #1794d8;
+}
+#login_section .wrap #signin_form .find_id a:hover{
+    text-decoration: underline;
+}
+#login_section .wrap .frame button{
+    display: block;
+    width: 100%; 
+    line-height: 56px;
+    background-color: #5e889e;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+#login_section .wrap #signin_form #signin_submit:hover,
+#login_section .wrap #signin_form .signin_create_account a:hover{
+    background-color: #999;
+    color: #7f6a72;
+    transition: background-color 0.5s, color 0.5s;
+}
+#login_section .wrap .frame .signin_create_account{}
+#login_section .wrap .frame .signin_create_account p{
+    text-align: center;
+    position: relative;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+#login_section .wrap #signin_form .signin_create_account p::before{
+    left: 10px;
+}
+#login_section .wrap #signin_form .signin_create_account p::after{
+    right: 10px;
+}
+#login_section .wrap #signin_form .signin_create_account p::before, #login_section .wrap #signin_form .signin_create_account p::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25%; height: 1px;
+    background-color: #919196;
+}
+#login_section .wrap .frame .signin_create_account a{
+    display: block;
+    width: 100%; 
+    line-height: 56px;
+    background-color: #5e889e;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    text-align: center;
+}

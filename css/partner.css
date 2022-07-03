@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/* #section_01 part */
+#section_01{}
+#section_01 .wrap{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#section_01 .wrap .cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+#section_01 .wrap .cont .top_part{
+    width: 100%;
+    padding: 0 10px;
+}
+#section_01 .wrap .cont .top_part p{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: #5c5c5c;
+}
+
+#section_01 .wrap .cont .bottom_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#section_01 .wrap .cont .bottom_part .box{
+    width: calc(50% - 20px);
+    margin: 0 10px 60px;
+    border: 1px solid #5e889e;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+#section_01 .wrap .cont .bottom_part .box .txt_part{}
+#section_01 .wrap .cont .bottom_part .box .txt_part h3{
+    color: #5e889e;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#section_01 .wrap .cont .bottom_part .box .txt_part h3 span{
+    font-size: 24px;
+}
+#section_01 .wrap .cont .bottom_part .box .txt_part p{
+    font-size: 14px;
+    color: #5c5c5c;
+}
+#section_01 .wrap .cont .bottom_part .box .img_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#section_01 .wrap .cont .bottom_part .box .img_part button{
+    width: 250px; height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5e889e;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+#section_01 .wrap .cont .bottom_part .box .img_part button:hover{
+    background-color: #999;
+    color: #7f6a72;
+    transition: background-color 0.5s, color 0.5s;
+}
+#section_01 .wrap .cont .bottom_part .box .img_part img{
+    display: block;
+    width: 140px;
+}
+
+/* #section_02 part */
+#section_02{}
+#section_02 .wrap{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+#section_02 .wrap h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    color: #5c5c5c;
+    padding-bottom: 40px;
+}
+#section_02 .wrap h2 span{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    color: #5c5c5c;
+}
+#section_02 .wrap .represent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#section_02 .wrap .represent a{}
+#section_02 .wrap .represent a img{
+    display: block;
+    padding: 0 10px 20px;
+}

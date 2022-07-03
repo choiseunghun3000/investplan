@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#faq_section{}
+#faq_section .wrap{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#faq_section .wrap .cont{
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid #5e889e;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+#faq_section .wrap .cont:last-child{
+    margin-bottom: 80px;
+}
+
+#faq_section .wrap .cont h3{
+    font-size: 18px;
+    color: #5e889e;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+#faq_section .wrap .cont p{
+    font-size: 14px;
+    color: #5c5c5c;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,258 @@
+
+@charset "utf-8";
+/* main part */
+main{
+    height: 830px;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+main .cloud{
+    width: 100%; height: 100%;
+    background-image: url(../img/cloud.png);
+    background-position: 0% 130%;
+    background-repeat: no-repeat;
+    animation: 160s moveCloud infinite linear;
+}
+@keyframes moveCloud{
+    0%{background-position: 0% 130%;}
+    50%{background-position: 100% 130%;}
+    100%{background-position: 0% 130%;}
+}
+
+main .cloud .wrap{
+    width: 1200px; height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+main .cloud .wrap p{
+    font-size: 18px;
+}
+main .cloud .wrap h2{
+    font-size: 36px;
+}
+main .cloud .wrap h2 span{
+    font-size: 48px;
+}
+main .cloud .wrap .main_btn{
+    width: 380px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+main .cloud .wrap .main_btn .signup_btn{
+    width: 160px;
+    background-color: #5e889e;
+    border-radius: 4px;
+}
+main .cloud .wrap .main_btn .signup_btn a{
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+main .cloud .wrap .main_btn .signup_btn:hover a{
+    background-color: #999;
+    color: #7f6a72;
+    transition: background-color 0.5s, color 0.5s;
+    
+}
+
+main .cloud .wrap .main_btn .login_btn{
+    width: 160px;
+    background-color: #5e889e;
+    border-radius: 4px;
+}
+main .cloud .wrap .main_btn .login_btn a{
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+main .cloud .wrap .main_btn .login_btn:hover a{
+    background-color: #999;
+    color: #7f6a72;
+    transition: background-color 0.5s, color 0.5s;
+    
+}
+
+/* sec1 part */
+#sec1{}
+#sec1 .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#sec1 .wrap .cont{
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+    /* background-color: #ddd; */
+    text-align: center;
+    padding-bottom: 40px;
+}
+#sec1 .wrap .cont .img_part{}
+#sec1 .wrap .cont .img_part img{}
+#sec1 .wrap .cont .txt_part{}
+#sec1 .wrap .cont .txt_part h3{
+    font-size: 18px;
+    color: #5c5c5c;
+    margin: 20px 0;
+}
+#sec1 .wrap .cont .txt_part p{
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+/* sec2 part */
+#sec2{
+    width: 100%; 
+    height: 200px;
+    /* position: fixed; */
+    background-image: url(../img/Investment-Performance-Banner-650.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+}
+#sec2 .dark{
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+#sec2 .dark .wrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#sec2 .dark .wrap p{
+    font-size: 24px;
+    color: #fff;
+}
+#sec2 .dark .wrap a{
+    display: block;
+    font-size: 16px;
+    color: #5e889e;
+    padding-top: 25px;
+}
+
+
+/* sec3 part */
+#sec3{
+    width: 100%;
+    padding: 80px 0;
+    background-image: url(../img/main2-bg.png);
+    background-repeat: no-repeat;
+}
+#sec3 .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: #aaf; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#sec3 .wrap h2{
+    width: 100%;
+    font-size: 36px;
+    color: #5e889e;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#sec3 .wrap .cont{
+    width: calc(25% - 20px);
+    margin: 0 10px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    
+}
+#sec3 .wrap .cont:hover{
+    box-shadow: 0 0 6px #000;
+    transition: box-shadow 0.5s;
+}
+#sec3 .wrap .cont .img_part{
+    width: 240px; height: 160px;
+    overflow: hidden;
+}
+#sec3 .wrap .cont .img_part img{
+    width: 100%; height: 100%;
+    transition: transform 0.5s;
+}
+#sec3 .wrap .cont:hover .img_part img{
+    transform: scale(1.05);
+}
+#sec3 .wrap .cont .txt_part{
+    margin-top: 40px;
+}
+#sec3 .wrap .cont .txt_part h3{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #5c5c5c;
+}
+#sec3 .wrap .cont .txt_part p{
+    height: 116px;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+#sec3 .wrap .cont .txt_part .arrow{
+    text-align: right;
+}
+#sec3 .wrap .cont .txt_part .arrow img{}
+#sec3 .wrap .cont .txt_part .arrow img:hover{
+    box-shadow: 0 0 4px #5e889e;
+    transition: box-shadow 0.5s;
+}
+#sec3 .paysys_icon{margin-top: 80px;}
+#sec3 .paysys_icon img{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: block;
+    height: 50px;
+}
+
+
+/* sec4 part */
+#sec4{
+    width: 100%;
+    background-image: url(../img/quick-enquiry.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#sec4 .blue_bg{
+    width: 100%; height: 100%;
+    background-color: rgba(94,136,158,0.75);
+}
+#sec4 .blue_bg .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: #ccc; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+#sec4 .blue_bg .wrap h2{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+#sec4 .blue_bg .wrap .managers{
+    width: calc(100% / 6 - 20px);
+    margin: 0 10px 20px;
+}
+#sec4 .blue_bg .wrap .managers a{}
+#sec4 .blue_bg .wrap .managers a img{}
+
+

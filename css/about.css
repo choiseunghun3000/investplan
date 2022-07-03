@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+section{}
+section .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+section .wrap .cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+section .wrap .cont .title_part{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+section .wrap .cont .title_part h2{
+    font-size: 24px;
+    color: #5c5c5c;
+    text-transform: uppercase;
+}
+section .wrap .cont .title_part h2 span{
+    font-size: 24px;
+    color: #5c5c5c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section .wrap .cont .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 40px;
+}
+section .wrap .cont .box:last-child{
+    display: flex;
+    flex-direction: row-reverse;
+}
+section .wrap .cont .box .txt_part{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    
+}
+section .wrap .cont .box .txt_part p{
+    font-size: 14px;
+    color: #5c5c5c;
+}
+section .wrap .cont .box .img_part{
+    width: calc(40% - 20px);
+    margin: 0 10px;
+}
+section .wrap .cont .box .img_part img{
+    display: block;
+    width: 100%;
+    
+}
